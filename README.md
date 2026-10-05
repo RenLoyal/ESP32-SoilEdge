@@ -1,2 +1,17 @@
 # ESP32-SoilEdge
-Low-cost ESP32 soil moisture sensing, calibration, and edge AI forecasting for small-scale plots.
+低成本土壤感知 + 校准 + 边缘预测系统（大二科研训练项目）
+
+## 进度
+- [x] 仓库初始化
+- [ ] W1: ESP32+电容探头采数
+- [ ] W2: 烘干法标定+温漂测试
+- [ ] W3-W4: RF校准模型
+
+## 硬件
+ESP32 + 电容式土壤湿度传感器 v1.2 + DHT22
+
+## 目录
+- `hardware/`：Arduino采集代码
+- `data/`：原始CSV与标定数据
+- `model/`：Python校准与预测脚本
+- `figs/`：论文用图
