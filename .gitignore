@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 忽略原始采样大文件与缓存
+data/*.csv
+__pycache__/
+*.pyc
+
+# Arduino编译缓存
+hardware/.build/
